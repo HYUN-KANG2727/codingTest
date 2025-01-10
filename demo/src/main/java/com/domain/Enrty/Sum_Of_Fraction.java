@@ -30,12 +30,4 @@ public class Sum_Of_Fraction {
         return a;
     }
 
-    public int[] solution2(int[] numbers) {
-        int[] answer = {};
-        answer = Arrays.stream(numbers).flatMap(item -> Arrays.stream(new int[]{item * 2})).toArray();
-        for(int num : numbers) {
-            num *= 2;
-        }
-        return answer;
-    }
 }

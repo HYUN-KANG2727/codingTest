@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  *
  * 코딩테스트 입문
- * 배열
+ * 배열 두 배 만들기
  *
  */
 public class Double_List {
@@ -22,4 +22,5 @@ public class Double_List {
         }
         return answer;
     }
+
 }
